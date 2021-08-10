@@ -1,0 +1,86 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {    margin: 0;    padding: 0;    border: 0;    outline: 0;      font-style: inherit;    font-size: 100%;    font-family: inherit;    vertical-align: baseline;}
+:focus {    outline: 0;}
+body {    line-height: 1;    color: black;    background: white;}
+ol, ul {list-style: none;}
+table {    border-collapse: separate;    border-spacing: 0;}
+
+body{font-family:Arial, Helvetica, sans-serif; font-size:12px; margin:0 auto; padding:0px;}
+
+#Ust{background-image:url(../images/ustbg.jpg); height:130px; background-repeat:repeat-x; margin:0px; padding:0px; display:block;}
+#Usticerik{ width:975px; height:130px; margin:0 auto; padding:0px; display:block; background-image:url(../images/ustbulut.jpg); background-repeat:repeat-x;}
+#Logo{width:290px; height:120px; float:left; padding:5px; background-image:url(../images/LogoBg.png); background-repeat:no-repeat; background-position:bottom;}
+
+
+#Govde{width:975px; min-height:325px; margin:0 auto; margin-bottom:75px; margin-top:30px; padding:0px; display:block;}
+#Menu{width:185px; display:block; float:left;}
+#Icerik{width:780px; display:block; float:left; line-height:16px;}
+
+#Resim{width:200px; margin:15px; display:block; float:left;}
+
+
+#Alt{background-image:url(../images/ustbg.jpg);height:50px; background-repeat:repeat-x; margin:0px; padding:0px; display:block;}
+#Alticerik{ width:975px; height:50px; margin:0 auto; padding:0px; display:block; background-image:url(../images/altbulut.jpg); background-repeat:repeat-x;}
+#Tel{width:155px; height:45px; float:left; margin-top:-22px; margin-left:5px;}
+#yediyirmidort{width:111px; height:110px; float:right; margin-top:-72px;}
+
+
+
+#baslik{color:#ec6e00; border-bottom: 1px dotted #ec6e00; width:770px; margin-bottom:10px; padding-bottom:3px; padding-left:2px; font-weight:bold; font-size:15px;}
+
+
+
+
+
+
+.suckerdiv ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+width: 165px; /* Width of Menu Items */
+border-bottom: 1px solid #a3d6f5;
+}
+	
+.suckerdiv ul li{
+position: relative;
+}
+	
+/*Sub level menu items */
+.suckerdiv ul li ul{
+position: absolute;
+width: 185px; /*sub menu width*/
+top: 0;
+visibility: hidden;
+}
+
+/* Sub level menu links style */
+.suckerdiv ul li a{
+display: block;
+overflow:hidden; /*force hasLayout in IE7 */
+color: black;
+text-decoration: none;
+background: #fff;
+padding:8px;
+border: 1px solid #a3d6f5;
+border-bottom: 0;
+font-size:14px;
+font-weight:bold;
+}
+
+.suckerdiv ul li a:visited{
+color: black;
+}
+
+.suckerdiv ul li a:hover{
+background-color:#ec6e00;
+color:#ffffff;
+}
+
+.suckerdiv .subfolderstyle{
+background: url(../images/arrow-list.gif) no-repeat center right;
+}
+
+	
+/* Holly Hack for IE \*/
+* html .suckerdiv ul li { float: left; height: 1%; }
+* html .suckerdiv ul li a { height: 1%; }
+/* End */
